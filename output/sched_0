@@ -1,0 +1,52 @@
+Time slot   0
+	Loaded a process at input/proc/s0, PID: 1
+	CPU 0: Dispatched process  1
+Time slot   1
+Time slot   2
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+Time slot   3
+Time slot   4
+	Loaded a process at input/proc/s1, PID: 2
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  2
+Time slot   5
+Time slot   6
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  2
+Time slot   7
+Time slot   8
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  1
+Time slot   9
+Time slot  10
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  2
+Time slot  11
+Time slot  12
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  1
+Time slot  13
+Time slot  14
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  2
+Time slot  15
+	CPU 0: Processed  2 has finished
+	CPU 0: Dispatched process  1
+Time slot  16
+Time slot  17
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+Time slot  18
+Time slot  19
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+Time slot  20
+Time slot  21
+	CPU 0: Put process  1 to run queue
+	CPU 0: Dispatched process  1
+Time slot  22
+	CPU 0: Processed  1 has finished
+	CPU 0 stopped
+
+MEMORY CONTENT: 

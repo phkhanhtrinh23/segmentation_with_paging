@@ -1,0 +1,11 @@
+1 10
+calc
+alloc 4133 0
+alloc 37812 2
+free 2
+alloc 3125 1
+calc
+write 10 0 2535
+alloc 3215 2
+free 1
+calc

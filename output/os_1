@@ -1,0 +1,150 @@
+Time slot   0
+	Loaded a process at input/proc/p0, PID: 1
+Time slot   1
+	CPU 2: Dispatched process  1
+Time slot   2
+	Loaded a process at input/proc/s3, PID: 2
+	CPU 2: Put process  1 to run queue
+Time slot   3
+	CPU 2: Dispatched process  2
+	CPU 1: Dispatched process  1
+	Loaded a process at input/proc/m1, PID: 3
+Time slot   4
+	CPU 3: Dispatched process  3
+	CPU 2: Put process  2 to run queue
+	CPU 2: Dispatched process  2
+	CPU 1: Put process  1 to run queue
+	CPU 1: Dispatched process  1
+Time slot   5
+	Loaded a process at input/proc/s2, PID: 4
+	CPU 3: Put process  3 to run queue
+	CPU 3: Dispatched process  4
+Time slot   6
+	CPU 0: Dispatched process  3
+Time slot   7
+	CPU 1: Put process  1 to run queue
+	CPU 1: Dispatched process  1
+	CPU 2: Put process  2 to run queue
+	CPU 2: Dispatched process  2
+	Loaded a process at input/proc/m0, PID: 5
+	CPU 3: Put process  4 to run queue
+	CPU 3: Dispatched process  5
+Time slot   8
+	CPU 0: Put process  3 to run queue
+	CPU 0: Dispatched process  4
+	Loaded a process at input/proc/p1, PID: 6
+Time slot   9
+	CPU 1: Put process  1 to run queue
+	CPU 1: Dispatched process  6
+	CPU 2: Put process  2 to run queue
+	CPU 2: Dispatched process  3
+	CPU 3: Put process  5 to run queue
+Time slot  10
+	CPU 3: Dispatched process  2
+	CPU 0: Put process  4 to run queue
+	CPU 0: Dispatched process  5
+	Loaded a process at input/proc/s0, PID: 7
+Time slot  11
+	CPU 1: Put process  6 to run queue
+	CPU 1: Dispatched process  7
+	CPU 2: Put process  3 to run queue
+	CPU 2: Dispatched process  1
+	CPU 3: Put process  2 to run queue
+Time slot  12
+	CPU 3: Dispatched process  4
+	CPU 0: Put process  5 to run queue
+	CPU 0: Dispatched process  2
+Time slot  13
+	CPU 1: Put process  7 to run queue
+	CPU 1: Dispatched process  6
+	CPU 2: Processed  1 has finished
+	CPU 2: Dispatched process  3
+	CPU 3: Put process  4 to run queue
+Time slot  14
+	CPU 3: Dispatched process  4
+	CPU 0: Put process  2 to run queue
+	CPU 0: Dispatched process  7
+Time slot  15
+	CPU 2: Processed  3 has finished
+	CPU 2: Dispatched process  5
+	CPU 1: Put process  6 to run queue
+	CPU 1: Dispatched process  2
+	Loaded a process at input/proc/s1, PID: 8
+Time slot  16
+	CPU 1: Processed  2 has finished
+	CPU 0: Put process  7 to run queue
+	CPU 1: Dispatched process  8
+	CPU 0: Dispatched process  6
+	CPU 3: Put process  4 to run queue
+	CPU 3: Dispatched process  4
+	CPU 2: Put process  5 to run queue
+	CPU 2: Dispatched process  7
+Time slot  17
+	CPU 3: Put process  4 to run queue
+Time slot  18
+	CPU 0: Put process  6 to run queue
+	CPU 1: Put process  8 to run queue
+	CPU 1: Dispatched process  5
+	CPU 3: Dispatched process  4
+	CPU 0: Dispatched process  8
+	CPU 2: Put process  7 to run queue
+	CPU 2: Dispatched process  6
+Time slot  19
+	CPU 1: Processed  5 has finished
+	CPU 1: Dispatched process  7
+	CPU 3: Processed  4 has finished
+	CPU 3 stopped
+Time slot  20
+	CPU 0: Put process  8 to run queue
+	CPU 0: Dispatched process  8
+Time slot  21
+	CPU 1: Put process  7 to run queue
+	CPU 1: Dispatched process  7
+	CPU 2: Put process  6 to run queue
+	CPU 2: Dispatched process  6
+Time slot  22
+	CPU 0: Put process  8 to run queue
+	CPU 0: Dispatched process  8
+Time slot  23
+	CPU 2: Processed  6 has finished
+	CPU 2 stopped
+	CPU 1: Put process  7 to run queue
+	CPU 1: Dispatched process  7
+	CPU 0: Processed  8 has finished
+	CPU 0 stopped
+Time slot  24
+Time slot  25
+	CPU 1: Put process  7 to run queue
+	CPU 1: Dispatched process  7
+Time slot  26
+Time slot  27
+	CPU 1: Put process  7 to run queue
+	CPU 1: Dispatched process  7
+Time slot  28
+	CPU 1: Processed  7 has finished
+	CPU 1 stopped
+
+MEMORY CONTENT: 
+000: 00000-003ff - PID: 05 (idx 000, nxt: 001)
+	003e8: 15
+001: 00400-007ff - PID: 05 (idx 001, nxt: -01)
+002: 00800-00bff - PID: 05 (idx 000, nxt: 003)
+003: 00c00-00fff - PID: 05 (idx 001, nxt: 004)
+004: 01000-013ff - PID: 05 (idx 002, nxt: 005)
+005: 01400-017ff - PID: 05 (idx 003, nxt: 006)
+006: 01800-01bff - PID: 05 (idx 004, nxt: -01)
+011: 02c00-02fff - PID: 06 (idx 000, nxt: 012)
+012: 03000-033ff - PID: 06 (idx 001, nxt: 013)
+013: 03400-037ff - PID: 06 (idx 002, nxt: 014)
+014: 03800-03bff - PID: 06 (idx 003, nxt: -01)
+021: 05400-057ff - PID: 01 (idx 000, nxt: -01)
+	05414: 64
+024: 06000-063ff - PID: 05 (idx 000, nxt: 025)
+	06014: 66
+025: 06400-067ff - PID: 05 (idx 001, nxt: -01)
+031: 07c00-07fff - PID: 06 (idx 000, nxt: 032)
+032: 08000-083ff - PID: 06 (idx 001, nxt: 033)
+033: 08400-087ff - PID: 06 (idx 002, nxt: 034)
+	085e7: 0a
+034: 08800-08bff - PID: 06 (idx 003, nxt: 035)
+035: 08c00-08fff - PID: 06 (idx 004, nxt: -01)
