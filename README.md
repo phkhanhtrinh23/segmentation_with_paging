@@ -11,7 +11,7 @@ of memory allocation from virtual-to-physical memory.
 - the operations of mem-allocation from virtual-to-physical
 
 **Note**:
-- The instructions and information are included in ```assignment_202.pdf``.
+- The instructions and information are included in ```assignment_202.pdf```.
 - Our report is in ```Operating_System_Assignment.pdf```.
 - All of the source codes are in ```src``` and their header file are in ```include```. Checking system is conducted by using ```input``` and ```ouput```.
 
