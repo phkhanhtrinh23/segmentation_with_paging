@@ -1,4 +1,4 @@
-# OS_Segmentation_Paging
+# Operating Systems CO2017
 ## About
 The objective of this assignment is the simulation of major components in a simple operating system,
 for example, scheduler, synchronization, related operations of physical memory and virtual memory.
