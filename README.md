@@ -10,6 +10,8 @@ of memory allocation from virtual-to-physical memory.
 - synchronization
 - the operations of mem-allocation from virtual-to-physical
 
+**Note**: All of the source codes are in ```src``` and their header file are in ```include```. Checking system is conducted by using ```input``` and ```ouput```.
+
 ## Result
 After this assignment, student can understand partly the principle of a simple OS. They can draw
 the role and meaning of key modules in the OS as well as how it works.
